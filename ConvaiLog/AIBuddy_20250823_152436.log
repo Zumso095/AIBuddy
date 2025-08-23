@@ -1,0 +1,25 @@
+[15:24:36] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 18ee52f0-800c-11f0-b3c0-42010a7be01f | Session ID : -1
+[15:25:16] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 18ee52f0-800c-11f0-b3c0-42010a7be01f | Session ID : -1
+[15:28:36] ConvaiSubsystemLog : Log : gRPC Creating Channel...
+[15:28:36] ConvaiSubsystemLog : Log : UConvaiSubsystem Started
+[15:28:36] ConvaiSubsystemLog : Log : Start Run
+[15:29:08] ConvaiSubsystemLog : Log : UConvaiSubsystem Stopped
+[15:29:08] ConvaiSubsystemLog : Log : End Run
+[15:33:43] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 18ee52f0-800c-11f0-b3c0-42010a7be01f | Session ID : -1
+[15:33:43] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 18ee52f0-800c-11f0-b3c0-42010a7be01f | Session ID : -1
+[15:33:43] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 18ee52f0-800c-11f0-b3c0-42010a7be01f | Session ID : -1
+[15:35:54] ConvaiSubsystemLog : Log : gRPC Creating Channel...
+[15:35:54] ConvaiSubsystemLog : Log : UConvaiSubsystem Started
+[15:35:54] ConvaiSubsystemLog : Log : Start Run
+[15:35:54] ConvaiPlayerLog : Log : UConvaiPlayerComponent: Found submix "AudioInput"
+[15:35:54] ConvaiSubsystemLog : Verbose : Registered player component: ConvaiPlayer
+[15:35:55] ConvaiSubsystemLog : Verbose : Unregistered player component: ConvaiPlayer
+[15:35:55] ConvaiSubsystemLog : Log : UConvaiSubsystem Stopped
+[15:35:55] ConvaiSubsystemLog : Log : End Run
+[15:35:55] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 18ee52f0-800c-11f0-b3c0-42010a7be01f | Session ID : -1
+[15:42:18] ConvaiGRPCLog : Log : Destroying UConvaiGRPCGetResponseProxy... | Character ID :  | Session ID : 
+[15:42:18] ConvaiGRPCFeedBackLog : Log : On Stream Finish | Interaction ID :  | Feedback Text :  | ThumbsUp: False
+[15:42:18] ConvaiChatbotComponentLog : Log : Cleanup | Character ID :  | Session ID : -1
+[15:42:18] ConvaiChatbotComponentLog : Log : Cleanup | Character ID :  | Session ID : -1
+[15:42:18] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 18ee52f0-800c-11f0-b3c0-42010a7be01f | Session ID : -1
+[15:42:18] ConvaiChatbotComponentLog : Log : Cleanup | Character ID :  | Session ID : -1

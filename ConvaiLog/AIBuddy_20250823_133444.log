@@ -1,0 +1,3 @@
+[13:34:44] ConvaiGRPCLog : Log : Destroying UConvaiGRPCGetResponseProxy... | Character ID :  | Session ID : 
+[13:34:44] ConvaiGRPCFeedBackLog : Log : On Stream Finish | Interaction ID :  | Feedback Text :  | ThumbsUp: False
+[13:34:44] ConvaiChatbotComponentLog : Log : Cleanup | Character ID :  | Session ID : -1
