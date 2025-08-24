@@ -600,3 +600,329 @@ emotion_response: "Admiration Ecstasy"
 [11:45:30] ConvaiSubsystemLog : Log : UConvaiSubsystem Stopped
 [11:45:30] ConvaiSubsystemLog : Log : End Run
 [11:45:30] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[13:54:16] ConvaiSubsystemLog : Log : gRPC Creating Channel...
+[13:54:16] ConvaiSubsystemLog : Log : UConvaiSubsystem Started
+[13:54:16] ConvaiSubsystemLog : Log : Start Run
+[13:54:16] ConvaiPlayerLog : Log : UConvaiPlayerComponent: Found submix "AudioInput"
+[13:54:16] ConvaiSubsystemLog : Verbose : Registered player component: ConvaiPlayer
+[13:54:42] ConvaiSubsystemLog : Verbose : Unregistered player component: ConvaiPlayer
+[13:54:42] ConvaiSubsystemLog : Log : UConvaiSubsystem Stopped
+[13:54:42] ConvaiSubsystemLog : Log : End Run
+[13:54:42] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[14:14:15] ConvaiSubsystemLog : Log : gRPC Creating Channel...
+[14:14:15] ConvaiSubsystemLog : Log : UConvaiSubsystem Started
+[14:14:15] ConvaiSubsystemLog : Log : Start Run
+[14:14:16] ConvaiPlayerLog : Log : UConvaiPlayerComponent: Found submix "AudioInput"
+[14:14:16] ConvaiSubsystemLog : Verbose : Registered player component: ConvaiPlayer
+[14:15:37] ConvaiSubsystemLog : Verbose : Unregistered player component: ConvaiPlayer
+[14:15:37] ConvaiSubsystemLog : Log : UConvaiSubsystem Stopped
+[14:15:37] ConvaiSubsystemLog : Log : End Run
+[14:15:37] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[15:46:20] ConvaiSubsystemLog : Log : gRPC Creating Channel...
+[15:46:20] ConvaiSubsystemLog : Log : UConvaiSubsystem Started
+[15:46:20] ConvaiSubsystemLog : Log : Start Run
+[15:46:20] ConvaiPlayerLog : Log : UConvaiPlayerComponent: Found submix "AudioInput"
+[15:46:20] ConvaiSubsystemLog : Verbose : Registered player component: ConvaiPlayer
+[15:47:04] ConvaiSubsystemLog : Verbose : Unregistered player component: ConvaiPlayer
+[15:47:04] ConvaiSubsystemLog : Log : UConvaiSubsystem Stopped
+[15:47:04] ConvaiSubsystemLog : Log : End Run
+[15:47:04] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[15:54:18] ConvaiSubsystemLog : Log : gRPC Creating Channel...
+[15:54:18] ConvaiSubsystemLog : Log : UConvaiSubsystem Started
+[15:54:18] ConvaiSubsystemLog : Log : Start Run
+[15:54:18] ConvaiPlayerLog : Log : UConvaiPlayerComponent: Found submix "AudioInput"
+[15:54:18] ConvaiSubsystemLog : Verbose : Registered player component: ConvaiPlayer
+[15:54:39] ConvaiSubsystemLog : Verbose : Unregistered player component: ConvaiPlayer
+[15:54:39] ConvaiSubsystemLog : Log : UConvaiSubsystem Stopped
+[15:54:39] ConvaiSubsystemLog : Log : End Run
+[15:54:39] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[15:54:55] ConvaiSubsystemLog : Log : gRPC Creating Channel...
+[15:54:55] ConvaiSubsystemLog : Log : UConvaiSubsystem Started
+[15:54:55] ConvaiSubsystemLog : Log : Start Run
+[15:54:55] ConvaiPlayerLog : Log : UConvaiPlayerComponent: Found submix "AudioInput"
+[15:54:55] ConvaiSubsystemLog : Verbose : Registered player component: ConvaiPlayer
+[15:56:07] ConvaiSubsystemLog : Verbose : Unregistered player component: ConvaiPlayer
+[15:56:07] ConvaiSubsystemLog : Log : UConvaiSubsystem Stopped
+[15:56:07] ConvaiSubsystemLog : Log : End Run
+[15:56:07] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[15:56:49] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:02:49] ConvaiSubsystemLog : Log : gRPC Creating Channel...
+[16:02:49] ConvaiSubsystemLog : Log : UConvaiSubsystem Started
+[16:02:49] ConvaiSubsystemLog : Log : Start Run
+[16:02:49] ConvaiPlayerLog : Log : UConvaiPlayerComponent: Found submix "AudioInput"
+[16:02:49] ConvaiSubsystemLog : Verbose : Registered player component: ConvaiPlayer
+[16:03:05] ConvaiSubsystemLog : Verbose : Unregistered player component: ConvaiPlayer
+[16:03:05] ConvaiSubsystemLog : Log : UConvaiSubsystem Stopped
+[16:03:05] ConvaiSubsystemLog : Log : End Run
+[16:03:05] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:05:20] ConvaiSubsystemLog : Log : gRPC Creating Channel...
+[16:05:20] ConvaiSubsystemLog : Log : UConvaiSubsystem Started
+[16:05:20] ConvaiSubsystemLog : Log : Start Run
+[16:05:20] ConvaiPlayerLog : Log : UConvaiPlayerComponent: Found submix "AudioInput"
+[16:05:20] ConvaiSubsystemLog : Verbose : Registered player component: ConvaiPlayer
+[16:05:24] ConvaiSubsystemLog : Verbose : Unregistered player component: ConvaiPlayer
+[16:05:24] ConvaiSubsystemLog : Log : UConvaiSubsystem Stopped
+[16:05:24] ConvaiSubsystemLog : Log : End Run
+[16:05:24] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:07:52] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:07:52] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:07:52] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:07:52] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:07:52] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:07:52] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:07:52] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:07:52] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:07:52] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:07:52] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:07:52] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:07:52] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:07:52] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:07:52] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:07:52] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:07:52] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:07:52] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:07:52] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:07:52] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:07:52] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:07:52] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:07:52] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:07:52] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:07:52] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:07:52] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:07:52] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:07:52] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:07:52] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:07:52] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:07:52] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:07:52] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:07:52] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:07:52] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:07:52] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:07:52] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:07:52] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:07:52] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:07:52] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:07:52] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:07:52] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:07:52] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:07:52] ConvaiSubsystemLog : Log : gRPC Creating Channel...
+[16:07:52] ConvaiSubsystemLog : Log : Start Run
+[16:07:52] ConvaiSubsystemLog : Log : UConvaiSubsystem Started
+[16:07:52] ConvaiPlayerLog : Log : UConvaiPlayerComponent: Found submix "AudioInput"
+[16:07:52] ConvaiSubsystemLog : Verbose : Registered player component: ConvaiPlayer
+[16:07:57] ConvaiSubsystemLog : Verbose : Unregistered player component: ConvaiPlayer
+[16:07:57] ConvaiSubsystemLog : Log : UConvaiSubsystem Stopped
+[16:07:57] ConvaiSubsystemLog : Log : End Run
+[16:07:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:08:18] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:08:18] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:08:18] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:08:18] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:08:18] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:08:18] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:08:18] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:08:18] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:08:18] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:08:18] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:08:18] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:08:18] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:08:18] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:08:18] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:08:18] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:08:18] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:08:18] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:08:18] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:08:18] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:08:18] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:08:18] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:08:18] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:08:18] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:08:18] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:08:41] ConvaiSubsystemLog : Log : gRPC Creating Channel...
+[16:08:41] ConvaiSubsystemLog : Log : UConvaiSubsystem Started
+[16:08:41] ConvaiSubsystemLog : Log : Start Run
+[16:08:41] ConvaiPlayerLog : Log : UConvaiPlayerComponent: Found submix "AudioInput"
+[16:08:41] ConvaiSubsystemLog : Verbose : Registered player component: ConvaiPlayer
+[16:08:44] ConvaiSubsystemLog : Verbose : Unregistered player component: ConvaiPlayer
+[16:08:44] ConvaiSubsystemLog : Log : UConvaiSubsystem Stopped
+[16:08:44] ConvaiSubsystemLog : Log : End Run
+[16:08:44] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:08:44] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:08:44] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:09:33] ConvaiSubsystemLog : Log : gRPC Creating Channel...
+[16:09:33] ConvaiSubsystemLog : Log : UConvaiSubsystem Started
+[16:09:33] ConvaiSubsystemLog : Log : Start Run
+[16:09:33] ConvaiPlayerLog : Log : UConvaiPlayerComponent: Found submix "AudioInput"
+[16:09:33] ConvaiSubsystemLog : Verbose : Registered player component: ConvaiPlayer
+[16:09:38] ConvaiSubsystemLog : Verbose : Unregistered player component: ConvaiPlayer
+[16:09:38] ConvaiSubsystemLog : Log : UConvaiSubsystem Stopped
+[16:09:38] ConvaiSubsystemLog : Log : End Run
+[16:09:38] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:09:46] ConvaiSubsystemLog : Log : gRPC Creating Channel...
+[16:09:46] ConvaiSubsystemLog : Log : UConvaiSubsystem Started
+[16:09:46] ConvaiSubsystemLog : Log : Start Run
+[16:09:46] ConvaiPlayerLog : Log : UConvaiPlayerComponent: Found submix "AudioInput"
+[16:09:46] ConvaiSubsystemLog : Verbose : Registered player component: ConvaiPlayer
+[16:09:57] ConvaiSubsystemLog : Verbose : Unregistered player component: ConvaiPlayer
+[16:09:57] ConvaiSubsystemLog : Log : UConvaiSubsystem Stopped
+[16:09:57] ConvaiSubsystemLog : Log : End Run
+[16:09:57] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:11:40] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:11:40] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:11:40] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:11:40] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:11:41] ConvaiSubsystemLog : Log : gRPC Creating Channel...
+[16:11:41] ConvaiSubsystemLog : Log : UConvaiSubsystem Started
+[16:11:41] ConvaiSubsystemLog : Log : Start Run
+[16:11:41] ConvaiPlayerLog : Log : UConvaiPlayerComponent: Found submix "AudioInput"
+[16:11:41] ConvaiSubsystemLog : Verbose : Registered player component: ConvaiPlayer
+[16:11:43] ConvaiSubsystemLog : Verbose : Unregistered player component: ConvaiPlayer
+[16:11:43] ConvaiSubsystemLog : Log : UConvaiSubsystem Stopped
+[16:11:43] ConvaiSubsystemLog : Log : End Run
+[16:11:43] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:11:43] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:11:47] ConvaiSubsystemLog : Log : gRPC Creating Channel...
+[16:11:47] ConvaiSubsystemLog : Log : UConvaiSubsystem Started
+[16:11:47] ConvaiSubsystemLog : Log : Start Run
+[16:11:47] ConvaiPlayerLog : Log : UConvaiPlayerComponent: Found submix "AudioInput"
+[16:11:47] ConvaiSubsystemLog : Verbose : Registered player component: ConvaiPlayer
+[16:12:21] ConvaiSubsystemLog : Verbose : Unregistered player component: ConvaiPlayer
+[16:12:21] ConvaiSubsystemLog : Log : UConvaiSubsystem Stopped
+[16:12:21] ConvaiSubsystemLog : Log : End Run
+[16:12:21] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:13:35] ConvaiSubsystemLog : Log : gRPC Creating Channel...
+[16:13:35] ConvaiSubsystemLog : Log : UConvaiSubsystem Started
+[16:13:35] ConvaiSubsystemLog : Log : Start Run
+[16:13:35] ConvaiPlayerLog : Log : UConvaiPlayerComponent: Found submix "AudioInput"
+[16:13:35] ConvaiSubsystemLog : Verbose : Registered player component: ConvaiPlayer
+[16:13:42] ConvaiSubsystemLog : Verbose : Unregistered player component: ConvaiPlayer
+[16:13:42] ConvaiSubsystemLog : Log : UConvaiSubsystem Stopped
+[16:13:42] ConvaiSubsystemLog : Log : End Run
+[16:13:42] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:14:01] ConvaiSubsystemLog : Log : gRPC Creating Channel...
+[16:14:01] ConvaiSubsystemLog : Log : UConvaiSubsystem Started
+[16:14:01] ConvaiSubsystemLog : Log : Start Run
+[16:14:01] ConvaiPlayerLog : Log : UConvaiPlayerComponent: Found submix "AudioInput"
+[16:14:01] ConvaiSubsystemLog : Verbose : Registered player component: ConvaiPlayer
+[16:14:04] ConvaiSubsystemLog : Verbose : Unregistered player component: ConvaiPlayer
+[16:14:04] ConvaiSubsystemLog : Log : UConvaiSubsystem Stopped
+[16:14:04] ConvaiSubsystemLog : Log : End Run
+[16:14:04] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:14:11] ConvaiSubsystemLog : Log : gRPC Creating Channel...
+[16:14:11] ConvaiSubsystemLog : Log : Start Run
+[16:14:11] ConvaiSubsystemLog : Log : UConvaiSubsystem Started
+[16:14:11] ConvaiPlayerLog : Log : UConvaiPlayerComponent: Found submix "AudioInput"
+[16:14:11] ConvaiSubsystemLog : Verbose : Registered player component: ConvaiPlayer
+[16:14:13] ConvaiSubsystemLog : Verbose : Unregistered player component: ConvaiPlayer
+[16:14:13] ConvaiSubsystemLog : Log : UConvaiSubsystem Stopped
+[16:14:13] ConvaiSubsystemLog : Log : End Run
+[16:14:13] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:14:40] ConvaiSubsystemLog : Log : gRPC Creating Channel...
+[16:14:40] ConvaiSubsystemLog : Log : UConvaiSubsystem Started
+[16:14:40] ConvaiSubsystemLog : Log : Start Run
+[16:14:40] ConvaiPlayerLog : Log : UConvaiPlayerComponent: Found submix "AudioInput"
+[16:14:40] ConvaiSubsystemLog : Verbose : Registered player component: ConvaiPlayer
+[16:14:42] ConvaiSubsystemLog : Verbose : Unregistered player component: ConvaiPlayer
+[16:14:42] ConvaiSubsystemLog : Log : UConvaiSubsystem Stopped
+[16:14:42] ConvaiSubsystemLog : Log : End Run
+[16:14:42] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:15:13] ConvaiSubsystemLog : Log : gRPC Creating Channel...
+[16:15:13] ConvaiSubsystemLog : Log : Start Run
+[16:15:13] ConvaiSubsystemLog : Log : UConvaiSubsystem Started
+[16:15:13] ConvaiPlayerLog : Log : UConvaiPlayerComponent: Found submix "AudioInput"
+[16:15:13] ConvaiSubsystemLog : Verbose : Registered player component: ConvaiPlayer
+[16:15:15] ConvaiSubsystemLog : Verbose : Unregistered player component: ConvaiPlayer
+[16:15:15] ConvaiSubsystemLog : Log : UConvaiSubsystem Stopped
+[16:15:15] ConvaiSubsystemLog : Log : End Run
+[16:15:15] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:15:21] ConvaiSubsystemLog : Log : gRPC Creating Channel...
+[16:15:21] ConvaiSubsystemLog : Log : Start Run
+[16:15:21] ConvaiSubsystemLog : Log : UConvaiSubsystem Started
+[16:15:21] ConvaiPlayerLog : Log : UConvaiPlayerComponent: Found submix "AudioInput"
+[16:15:21] ConvaiSubsystemLog : Verbose : Registered player component: ConvaiPlayer
+[16:15:25] ConvaiSubsystemLog : Verbose : Unregistered player component: ConvaiPlayer
+[16:15:25] ConvaiSubsystemLog : Log : UConvaiSubsystem Stopped
+[16:15:25] ConvaiSubsystemLog : Log : End Run
+[16:15:26] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:16:12] ConvaiSubsystemLog : Log : gRPC Creating Channel...
+[16:16:12] ConvaiSubsystemLog : Log : UConvaiSubsystem Started
+[16:16:12] ConvaiSubsystemLog : Log : Start Run
+[16:16:12] ConvaiPlayerLog : Log : UConvaiPlayerComponent: Found submix "AudioInput"
+[16:16:12] ConvaiSubsystemLog : Verbose : Registered player component: ConvaiPlayer
+[16:16:14] ConvaiSubsystemLog : Verbose : Unregistered player component: ConvaiPlayer
+[16:16:14] ConvaiSubsystemLog : Log : UConvaiSubsystem Stopped
+[16:16:14] ConvaiSubsystemLog : Log : End Run
+[16:16:14] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:17:30] ConvaiSubsystemLog : Log : gRPC Creating Channel...
+[16:17:30] ConvaiSubsystemLog : Log : UConvaiSubsystem Started
+[16:17:30] ConvaiSubsystemLog : Log : Start Run
+[16:17:30] ConvaiPlayerLog : Log : UConvaiPlayerComponent: Found submix "AudioInput"
+[16:17:30] ConvaiSubsystemLog : Verbose : Registered player component: ConvaiPlayer
+[16:17:34] ConvaiSubsystemLog : Verbose : Unregistered player component: ConvaiPlayer
+[16:17:34] ConvaiSubsystemLog : Log : UConvaiSubsystem Stopped
+[16:17:34] ConvaiSubsystemLog : Log : End Run
+[16:17:34] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:17:38] ConvaiSubsystemLog : Log : gRPC Creating Channel...
+[16:17:38] ConvaiSubsystemLog : Log : UConvaiSubsystem Started
+[16:17:38] ConvaiSubsystemLog : Log : Start Run
+[16:17:38] ConvaiPlayerLog : Log : UConvaiPlayerComponent: Found submix "AudioInput"
+[16:17:38] ConvaiSubsystemLog : Verbose : Registered player component: ConvaiPlayer
+[16:18:02] ConvaiSubsystemLog : Verbose : Unregistered player component: ConvaiPlayer
+[16:18:02] ConvaiSubsystemLog : Log : UConvaiSubsystem Stopped
+[16:18:02] ConvaiSubsystemLog : Log : End Run
+[16:18:02] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:18:37] ConvaiSubsystemLog : Log : gRPC Creating Channel...
+[16:18:37] ConvaiSubsystemLog : Log : UConvaiSubsystem Started
+[16:18:37] ConvaiSubsystemLog : Log : Start Run
+[16:18:37] ConvaiPlayerLog : Log : UConvaiPlayerComponent: Found submix "AudioInput"
+[16:18:37] ConvaiSubsystemLog : Verbose : Registered player component: ConvaiPlayer
+[16:18:39] ConvaiSubsystemLog : Verbose : Unregistered player component: ConvaiPlayer
+[16:18:39] ConvaiSubsystemLog : Log : UConvaiSubsystem Stopped
+[16:18:39] ConvaiSubsystemLog : Log : End Run
+[16:18:39] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:21:28] ConvaiSubsystemLog : Log : gRPC Creating Channel...
+[16:21:28] ConvaiSubsystemLog : Log : UConvaiSubsystem Started
+[16:21:28] ConvaiSubsystemLog : Log : Start Run
+[16:21:28] ConvaiPlayerLog : Log : UConvaiPlayerComponent: Found submix "AudioInput"
+[16:21:28] ConvaiSubsystemLog : Verbose : Registered player component: ConvaiPlayer
+[16:21:36] ConvaiSubsystemLog : Verbose : Unregistered player component: ConvaiPlayer
+[16:21:36] ConvaiSubsystemLog : Log : UConvaiSubsystem Stopped
+[16:21:36] ConvaiSubsystemLog : Log : End Run
+[16:21:36] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:21:48] ConvaiSubsystemLog : Log : gRPC Creating Channel...
+[16:21:48] ConvaiSubsystemLog : Log : UConvaiSubsystem Started
+[16:21:48] ConvaiSubsystemLog : Log : Start Run
+[16:21:48] ConvaiPlayerLog : Log : UConvaiPlayerComponent: Found submix "AudioInput"
+[16:21:48] ConvaiSubsystemLog : Verbose : Registered player component: ConvaiPlayer
+[16:22:09] ConvaiSubsystemLog : Verbose : Unregistered player component: ConvaiPlayer
+[16:22:09] ConvaiSubsystemLog : Log : UConvaiSubsystem Stopped
+[16:22:09] ConvaiSubsystemLog : Log : End Run
+[16:22:09] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:22:11] ConvaiSubsystemLog : Log : gRPC Creating Channel...
+[16:22:11] ConvaiSubsystemLog : Log : UConvaiSubsystem Started
+[16:22:11] ConvaiSubsystemLog : Log : Start Run
+[16:22:11] ConvaiPlayerLog : Log : UConvaiPlayerComponent: Found submix "AudioInput"
+[16:22:11] ConvaiSubsystemLog : Verbose : Registered player component: ConvaiPlayer
+[16:22:19] ConvaiSubsystemLog : Verbose : Unregistered player component: ConvaiPlayer
+[16:22:19] ConvaiSubsystemLog : Log : UConvaiSubsystem Stopped
+[16:22:19] ConvaiSubsystemLog : Log : End Run
+[16:22:19] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:22:27] ConvaiSubsystemLog : Log : gRPC Creating Channel...
+[16:22:27] ConvaiSubsystemLog : Log : UConvaiSubsystem Started
+[16:22:27] ConvaiSubsystemLog : Log : Start Run
+[16:22:27] ConvaiPlayerLog : Log : UConvaiPlayerComponent: Found submix "AudioInput"
+[16:22:27] ConvaiSubsystemLog : Verbose : Registered player component: ConvaiPlayer
+[16:22:30] ConvaiSubsystemLog : Verbose : Unregistered player component: ConvaiPlayer
+[16:22:30] ConvaiSubsystemLog : Log : UConvaiSubsystem Stopped
+[16:22:30] ConvaiSubsystemLog : Log : End Run
+[16:22:30] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[16:40:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 18ee52f0-800c-11f0-b3c0-42010a7be01f | Session ID : -1
+[16:40:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID :  | Session ID : -1
+[16:40:59] ConvaiChatbotComponentLog : Log : Cleanup | Character ID :  | Session ID : -1
+[16:41:01] ConvaiGRPCLog : Log : Destroying UConvaiGRPCGetResponseProxy... | Character ID :  | Session ID : 
+[16:41:01] ConvaiGRPCFeedBackLog : Log : On Stream Finish | Interaction ID :  | Feedback Text :  | ThumbsUp: False
+[16:41:01] ConvaiChatbotComponentLog : Log : Cleanup | Character ID :  | Session ID : -1
+[16:41:01] ConvaiChatbotComponentLog : Log : Cleanup | Character ID :  | Session ID : -1
+[16:41:01] ConvaiChatbotComponentLog : Log : Cleanup | Character ID :  | Session ID : -1
+[16:41:01] ConvaiChatbotComponentLog : Log : Cleanup | Character ID :  | Session ID : -1
+[16:41:01] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
