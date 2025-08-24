@@ -1,0 +1,973 @@
+[10:50:48] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:51:19] ConvaiSubsystemLog : Log : gRPC Creating Channel...
+[10:51:19] ConvaiSubsystemLog : Log : Start Run
+[10:51:19] ConvaiSubsystemLog : Log : UConvaiSubsystem Started
+[10:51:19] ConvaiPlayerLog : Log : UConvaiPlayerComponent: Found submix "AudioInput"
+[10:51:19] ConvaiSubsystemLog : Verbose : Registered player component: ConvaiPlayer
+[10:51:21] ConvaiSubsystemLog : Verbose : Unregistered player component: ConvaiPlayer
+[10:51:21] ConvaiSubsystemLog : Log : UConvaiSubsystem Stopped
+[10:51:21] ConvaiSubsystemLog : Log : End Run
+[10:51:21] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:51:50] ConvaiSubsystemLog : Log : gRPC Creating Channel...
+[10:51:50] ConvaiSubsystemLog : Log : UConvaiSubsystem Started
+[10:51:50] ConvaiSubsystemLog : Log : Start Run
+[10:51:50] ConvaiPlayerLog : Log : UConvaiPlayerComponent: Found submix "AudioInput"
+[10:51:50] ConvaiSubsystemLog : Verbose : Registered player component: ConvaiPlayer
+[10:51:55] ConvaiSubsystemLog : Warning : gRPC channel not ready yet.. Current State: GRPC_CHANNEL_IDLE
+[10:51:55] ConvaiGRPCLog : Log : AsyncGetResponse started | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:51:55] ConvaiGRPCLog : Log : GRPC GetResponse stream initialized | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:51:55] ConvaiGRPCLog : Log : request: character_id: "77d7acd8-8059-11f0-845c-42010a7be01f"
+api_key: "dde3d1f3ad9758cfebb97c04227e3edf"
+session_id: "-1"
+audio_config {
+  sample_rate_hertz: 16000
+}
+action_config {
+  actions: "Moves To"
+  actions: "Follows"
+  actions: "None"
+  actions: "Stops"
+  actions: "Waits for <time in seconds or character>"
+  characters {
+    name: "BUddy"
+  }
+  characters {
+    name: "Guest"
+  }
+  characters {
+    name: "Player"
+  }
+  objects {
+    name: "Red Platform"
+  }
+  objects {
+    name: "Position number 4"
+  }
+  objects {
+    name: "Activator"
+  }
+  classification: "multistep"
+}
+speaker: "Player"
+dynamic_info_config {
+}
+ | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:51:55] ConvaiGRPCLog : Log : Initial Stream Write | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:51:55] ConvaiGRPCLog : Log : Initial Stream Read | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:51:55] ConvaiGRPCLog : Log : Sent UserQuery move to activator: | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:51:55] ConvaiGRPCLog : Log : Calling Stream WriteLast | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:51:55] ConvaiGRPCLog : Log : OnStreamWriteDone
+[10:51:55] ConvaiGRPCLog : Log : NumberOfAudioBytesSent 0
+[10:51:57] ConvaiGRPCLog : Log : GetResponse EmotionResponseDebug: session_id: "dd02b3c8286b5e3aa32829970a1159b4"
+emotion_response: "Serenity"
+
+[10:51:58] ConvaiGRPCLog : Log : Received Audio Chunk: 1.663265 secs | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : dd02b3c8286b5e3aa32829970a1159b4
+[10:51:58] ConvaiGRPCLog : Log : EmotionResponse: joy 1
+[10:51:58] ConvaiAudioStreamerLog : Log : New SampleRate: 44100
+[10:51:58] ConvaiAudioStreamerLog : Log : New Channels: 1
+[10:51:58] ConvaiAudioStreamerLog : Log : State transition: Stopped -> Playing
+[10:51:58] ConvaiChatbotComponentLog : Log : Chatbot Total Received Audio: 1.662245 seconds
+[10:51:58] ConvaiGRPCLog : Log : Received Text Moving to the Activator!: | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : dd02b3c8286b5e3aa32829970a1159b4 | ReceivedFinalResponse : True
+[10:51:58] ConvaiGRPCLog : Log : GetResponse SequenceString: Moves To Activator
+[10:51:58] ConvaiGRPCLog : Log : Action: Moves To
+[10:51:59] ConvaiGRPCLog : Log : GetResponse EmotionResponseDebug: session_id: "dd02b3c8286b5e3aa32829970a1159b4"
+emotion_response: "Admiration Ecstasy"
+
+[10:51:59] ConvaiAudioStreamerLog : Log : onAudioFinished
+[10:51:59] ConvaiAudioStreamerLog : Log : State transition: Playing -> Stopped
+[10:52:00] ConvaiGRPCLog : Log : No more data to read after 3 attempts. Calling Finish...
+[10:52:00] ConvaiGRPCLog : Log : Calling Stream Finish | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : dd02b3c8286b5e3aa32829970a1159b4
+[10:52:00] ConvaiGRPCLog : Log : On Stream Finish | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : dd02b3c8286b5e3aa32829970a1159b4
+[10:52:00] ConvaiChatbotComponentLog : Log : UConvaiChatbotComponent Request Finished! | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : dd02b3c8286b5e3aa32829970a1159b4
+[10:52:05] ConvaiSubsystemLog : Verbose : Unregistered player component: ConvaiPlayer
+[10:52:05] ConvaiSubsystemLog : Log : UConvaiSubsystem Stopped
+[10:52:05] ConvaiSubsystemLog : Log : End Run
+[10:52:05] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : dd02b3c8286b5e3aa32829970a1159b4
+[10:52:05] ConvaiGRPCLog : Log : Destroying UConvaiGRPCGetResponseProxy... | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : dd02b3c8286b5e3aa32829970a1159b4
+[10:52:15] ConvaiChatbotComponentLog : Log : Cleanup | Character ID :  | Session ID : -1
+[10:53:20] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:53:20] ConvaiChatbotComponentLog : Log : Cleanup | Character ID :  | Session ID : -1
+[10:53:20] ConvaiChatbotComponentLog : Log : Cleanup | Character ID :  | Session ID : -1
+[10:53:39] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 18ee52f0-800c-11f0-b3c0-42010a7be01f | Session ID : -1
+[10:53:39] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:53:39] ConvaiChatbotComponentLog : Log : Cleanup | Character ID :  | Session ID : -1
+[10:53:39] ConvaiChatbotComponentLog : Log : Cleanup | Character ID :  | Session ID : -1
+[10:53:39] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:53:39] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 18ee52f0-800c-11f0-b3c0-42010a7be01f | Session ID : -1
+[10:53:39] ConvaiSubsystemLog : Log : gRPC Creating Channel...
+[10:53:39] ConvaiSubsystemLog : Log : UConvaiSubsystem Started
+[10:53:39] ConvaiSubsystemLog : Log : Start Run
+[10:53:39] ConvaiPlayerLog : Log : UConvaiPlayerComponent: Found submix "AudioInput"
+[10:53:39] ConvaiSubsystemLog : Verbose : Registered player component: ConvaiPlayer
+[10:53:46] ConvaiSubsystemLog : Warning : gRPC channel not ready yet.. Current State: GRPC_CHANNEL_IDLE
+[10:53:46] ConvaiGRPCLog : Log : AsyncGetResponse started | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:53:46] ConvaiGRPCLog : Log : GRPC GetResponse stream initialized | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:53:46] ConvaiGRPCLog : Log : request: character_id: "77d7acd8-8059-11f0-845c-42010a7be01f"
+api_key: "dde3d1f3ad9758cfebb97c04227e3edf"
+session_id: "-1"
+audio_config {
+  sample_rate_hertz: 16000
+}
+action_config {
+  actions: "Moves To"
+  actions: "Follows"
+  actions: "None"
+  actions: "Stops"
+  actions: "Waits for <time in seconds or character>"
+  characters {
+    name: "BUddy"
+  }
+  characters {
+    name: "Guest"
+  }
+  characters {
+    name: "Player"
+  }
+  objects {
+    name: "Red Platform"
+  }
+  objects {
+    name: "Position number 4"
+  }
+  objects {
+    name: "Activator"
+  }
+  classification: "multistep"
+}
+speaker: "Player"
+dynamic_info_config {
+}
+ | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:53:46] ConvaiGRPCLog : Log : Initial Stream Write | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:53:46] ConvaiGRPCLog : Log : Initial Stream Read | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:53:46] ConvaiGRPCLog : Log : Sent UserQuery move to activator: | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:53:46] ConvaiGRPCLog : Log : Calling Stream WriteLast | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:53:46] ConvaiGRPCLog : Log : OnStreamWriteDone
+[10:53:46] ConvaiGRPCLog : Log : NumberOfAudioBytesSent 0
+[10:53:53] ConvaiGRPCLog : Log : GetResponse EmotionResponseDebug: session_id: "e04ca0b85b69ca094aef37f9497432f7"
+emotion_response: "Joy"
+
+[10:53:53] ConvaiGRPCLog : Log : Received Audio Chunk: 1.663265 secs | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : e04ca0b85b69ca094aef37f9497432f7
+[10:53:53] ConvaiGRPCLog : Log : EmotionResponse: joy 2
+[10:53:53] ConvaiAudioStreamerLog : Log : New SampleRate: 44100
+[10:53:53] ConvaiAudioStreamerLog : Log : New Channels: 1
+[10:53:53] ConvaiAudioStreamerLog : Log : State transition: Stopped -> Playing
+[10:53:53] ConvaiChatbotComponentLog : Log : Chatbot Total Received Audio: 1.662245 seconds
+[10:53:53] ConvaiGRPCLog : Log : Received Text Moving to the Activator!: | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : e04ca0b85b69ca094aef37f9497432f7 | ReceivedFinalResponse : True
+[10:53:53] ConvaiGRPCLog : Log : GetResponse SequenceString: Moves To Activator
+[10:53:53] ConvaiGRPCLog : Log : Action: Moves To
+[10:53:54] ConvaiGRPCLog : Log : GetResponse EmotionResponseDebug: session_id: "e04ca0b85b69ca094aef37f9497432f7"
+emotion_response: "Admiration Ecstasy"
+
+[10:53:55] ConvaiAudioStreamerLog : Log : onAudioFinished
+[10:53:55] ConvaiAudioStreamerLog : Log : State transition: Playing -> Stopped
+[10:53:56] ConvaiGRPCLog : Log : No more data to read after 3 attempts. Calling Finish...
+[10:53:56] ConvaiGRPCLog : Log : Calling Stream Finish | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : e04ca0b85b69ca094aef37f9497432f7
+[10:53:56] ConvaiGRPCLog : Log : On Stream Finish | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : e04ca0b85b69ca094aef37f9497432f7
+[10:53:56] ConvaiChatbotComponentLog : Log : UConvaiChatbotComponent Request Finished! | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : e04ca0b85b69ca094aef37f9497432f7
+[10:53:59] ConvaiSubsystemLog : Verbose : Unregistered player component: ConvaiPlayer
+[10:53:59] ConvaiSubsystemLog : Log : UConvaiSubsystem Stopped
+[10:53:59] ConvaiSubsystemLog : Log : End Run
+[10:53:59] ConvaiGRPCLog : Log : Destroying UConvaiGRPCGetResponseProxy... | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : e04ca0b85b69ca094aef37f9497432f7
+[10:53:59] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : e04ca0b85b69ca094aef37f9497432f7
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 18ee52f0-800c-11f0-b3c0-42010a7be01f | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID :  | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:54:58] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:55:01] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 18ee52f0-800c-11f0-b3c0-42010a7be01f | Session ID : -1
+[10:55:01] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:55:01] ConvaiChatbotComponentLog : Log : Cleanup | Character ID :  | Session ID : -1
+[10:55:01] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 18ee52f0-800c-11f0-b3c0-42010a7be01f | Session ID : -1
+[10:55:01] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:55:01] ConvaiChatbotComponentLog : Log : Cleanup | Character ID :  | Session ID : -1
+[10:55:01] ConvaiSubsystemLog : Log : gRPC Creating Channel...
+[10:55:01] ConvaiSubsystemLog : Log : UConvaiSubsystem Started
+[10:55:01] ConvaiSubsystemLog : Log : Start Run
+[10:55:01] ConvaiPlayerLog : Log : UConvaiPlayerComponent: Found submix "AudioInput"
+[10:55:01] ConvaiSubsystemLog : Verbose : Registered player component: ConvaiPlayer
+[10:55:05] ConvaiSubsystemLog : Warning : gRPC channel not ready yet.. Current State: GRPC_CHANNEL_IDLE
+[10:55:05] ConvaiGRPCLog : Log : AsyncGetResponse started | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:55:05] ConvaiGRPCLog : Log : GRPC GetResponse stream initialized | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:55:05] ConvaiGRPCLog : Log : request: character_id: "77d7acd8-8059-11f0-845c-42010a7be01f"
+api_key: "dde3d1f3ad9758cfebb97c04227e3edf"
+session_id: "-1"
+audio_config {
+  sample_rate_hertz: 16000
+}
+action_config {
+  actions: "Moves To"
+  actions: "Follows"
+  actions: "None"
+  actions: "Stops"
+  actions: "Waits for <time in seconds or character>"
+  characters {
+    name: "BUddy"
+  }
+  characters {
+    name: "Guest"
+  }
+  characters {
+    name: "Player"
+  }
+  objects {
+    name: "Red Platform"
+  }
+  objects {
+    name: "Position number 4"
+  }
+  objects {
+    name: "Activator"
+  }
+  classification: "multistep"
+}
+speaker: "Player"
+dynamic_info_config {
+}
+ | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:55:05] ConvaiGRPCLog : Log : Initial Stream Write | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:55:05] ConvaiGRPCLog : Log : Initial Stream Read | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:55:05] ConvaiGRPCLog : Log : Sent UserQuery move to activator: | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:55:05] ConvaiGRPCLog : Log : Calling Stream WriteLast | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:55:05] ConvaiGRPCLog : Log : OnStreamWriteDone
+[10:55:05] ConvaiGRPCLog : Log : NumberOfAudioBytesSent 0
+[10:55:08] ConvaiGRPCLog : Log : GetResponse EmotionResponseDebug: session_id: "917835574ffc28dba6320923fd25fbeb"
+emotion_response: "Serenity"
+
+[10:55:09] ConvaiGRPCLog : Log : Received Audio Chunk: 1.663265 secs | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 917835574ffc28dba6320923fd25fbeb
+[10:55:09] ConvaiGRPCLog : Log : EmotionResponse: joy 1
+[10:55:09] ConvaiAudioStreamerLog : Log : New SampleRate: 44100
+[10:55:09] ConvaiAudioStreamerLog : Log : New Channels: 1
+[10:55:09] ConvaiAudioStreamerLog : Log : State transition: Stopped -> Playing
+[10:55:09] ConvaiChatbotComponentLog : Log : Chatbot Total Received Audio: 1.662245 seconds
+[10:55:09] ConvaiGRPCLog : Log : Received Text Moving to the Activator!: | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 917835574ffc28dba6320923fd25fbeb | ReceivedFinalResponse : True
+[10:55:09] ConvaiGRPCLog : Log : GetResponse SequenceString: Moves To Activator
+[10:55:09] ConvaiGRPCLog : Log : Action: Moves To
+[10:55:10] ConvaiGRPCLog : Log : GetResponse EmotionResponseDebug: session_id: "917835574ffc28dba6320923fd25fbeb"
+emotion_response: "Admiration Ecstasy"
+
+[10:55:11] ConvaiAudioStreamerLog : Log : onAudioFinished
+[10:55:11] ConvaiAudioStreamerLog : Log : State transition: Playing -> Stopped
+[10:55:11] ConvaiGRPCLog : Log : No more data to read after 3 attempts. Calling Finish...
+[10:55:11] ConvaiGRPCLog : Log : Calling Stream Finish | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 917835574ffc28dba6320923fd25fbeb
+[10:55:11] ConvaiGRPCLog : Log : On Stream Finish | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 917835574ffc28dba6320923fd25fbeb
+[10:55:11] ConvaiChatbotComponentLog : Log : UConvaiChatbotComponent Request Finished! | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 917835574ffc28dba6320923fd25fbeb
+[10:55:21] ConvaiSubsystemLog : Verbose : Unregistered player component: ConvaiPlayer
+[10:55:21] ConvaiSubsystemLog : Log : UConvaiSubsystem Stopped
+[10:55:21] ConvaiSubsystemLog : Log : End Run
+[10:55:21] ConvaiGRPCLog : Log : Destroying UConvaiGRPCGetResponseProxy... | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 917835574ffc28dba6320923fd25fbeb
+[10:55:21] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 917835574ffc28dba6320923fd25fbeb
+[10:55:40] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 18ee52f0-800c-11f0-b3c0-42010a7be01f | Session ID : -1
+[10:55:40] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:55:40] ConvaiChatbotComponentLog : Log : Cleanup | Character ID :  | Session ID : -1
+[10:55:42] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 18ee52f0-800c-11f0-b3c0-42010a7be01f | Session ID : -1
+[10:55:42] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:55:42] ConvaiChatbotComponentLog : Log : Cleanup | Character ID :  | Session ID : -1
+[10:55:42] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 18ee52f0-800c-11f0-b3c0-42010a7be01f | Session ID : -1
+[10:55:42] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:55:42] ConvaiChatbotComponentLog : Log : Cleanup | Character ID :  | Session ID : -1
+[10:55:42] ConvaiSubsystemLog : Log : gRPC Creating Channel...
+[10:55:42] ConvaiSubsystemLog : Log : UConvaiSubsystem Started
+[10:55:42] ConvaiSubsystemLog : Log : Start Run
+[10:55:42] ConvaiPlayerLog : Log : UConvaiPlayerComponent: Found submix "AudioInput"
+[10:55:42] ConvaiSubsystemLog : Verbose : Registered player component: ConvaiPlayer
+[10:55:46] ConvaiSubsystemLog : Warning : gRPC channel not ready yet.. Current State: GRPC_CHANNEL_IDLE
+[10:55:46] ConvaiGRPCLog : Log : AsyncGetResponse started | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:55:47] ConvaiGRPCLog : Log : GRPC GetResponse stream initialized | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:55:47] ConvaiGRPCLog : Log : request: character_id: "77d7acd8-8059-11f0-845c-42010a7be01f"
+api_key: "dde3d1f3ad9758cfebb97c04227e3edf"
+session_id: "-1"
+audio_config {
+  sample_rate_hertz: 16000
+}
+action_config {
+  actions: "Moves To"
+  actions: "Follows"
+  actions: "None"
+  actions: "Stops"
+  actions: "Waits for <time in seconds or character>"
+  characters {
+    name: "BUddy"
+  }
+  characters {
+    name: "Guest"
+  }
+  characters {
+    name: "Player"
+  }
+  objects {
+    name: "Red Platform"
+  }
+  objects {
+    name: "Position number 4"
+  }
+  objects {
+    name: "Activator"
+  }
+  classification: "multistep"
+}
+speaker: "Player"
+dynamic_info_config {
+}
+ | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:55:47] ConvaiGRPCLog : Log : Initial Stream Write | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:55:47] ConvaiGRPCLog : Log : Initial Stream Read | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:55:47] ConvaiGRPCLog : Log : Sent UserQuery move to activator: | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:55:47] ConvaiGRPCLog : Log : Calling Stream WriteLast | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:55:47] ConvaiGRPCLog : Log : OnStreamWriteDone
+[10:55:47] ConvaiGRPCLog : Log : NumberOfAudioBytesSent 0
+[10:55:49] ConvaiGRPCLog : Log : GetResponse EmotionResponseDebug: session_id: "5295221f01acfc561baf2ff997749d28"
+emotion_response: "Serenity"
+
+[10:55:49] ConvaiGRPCLog : Log : Received Audio Chunk: 2.018390 secs | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 5295221f01acfc561baf2ff997749d28
+[10:55:49] ConvaiGRPCLog : Log : EmotionResponse: joy 1
+[10:55:49] ConvaiAudioStreamerLog : Log : New SampleRate: 44100
+[10:55:49] ConvaiAudioStreamerLog : Log : New Channels: 1
+[10:55:49] ConvaiAudioStreamerLog : Log : State transition: Stopped -> Playing
+[10:55:49] ConvaiChatbotComponentLog : Log : Chatbot Total Received Audio: 2.017370 seconds
+[10:55:49] ConvaiGRPCLog : Log : Received Text Moving to the Activator now!: | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 5295221f01acfc561baf2ff997749d28 | ReceivedFinalResponse : True
+[10:55:49] ConvaiGRPCLog : Log : GetResponse SequenceString: Moves To Activator
+[10:55:49] ConvaiGRPCLog : Log : Action: Moves To
+[10:55:49] ConvaiGRPCLog : Log : GetResponse EmotionResponseDebug: session_id: "5295221f01acfc561baf2ff997749d28"
+emotion_response: "Admiration Ecstasy"
+
+[10:55:50] ConvaiGRPCLog : Log : No more data to read after 3 attempts. Calling Finish...
+[10:55:50] ConvaiGRPCLog : Log : Calling Stream Finish | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 5295221f01acfc561baf2ff997749d28
+[10:55:50] ConvaiGRPCLog : Log : On Stream Finish | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 5295221f01acfc561baf2ff997749d28
+[10:55:50] ConvaiChatbotComponentLog : Log : UConvaiChatbotComponent Request Finished! | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 5295221f01acfc561baf2ff997749d28
+[10:55:51] ConvaiAudioStreamerLog : Log : onAudioFinished
+[10:55:51] ConvaiAudioStreamerLog : Log : State transition: Playing -> Stopped
+[10:56:02] ConvaiChatbotComponentLog : Log : Invoke Speech: Executed | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 5295221f01acfc561baf2ff997749d28
+[10:56:02] ConvaiChatbotComponentLog : Warning : InvokeTrigger_Internal: ConvaiActions: Main Character in the Environment object is invalid or not set! Please set it using "Set Main Character" function and use the player pawn as input
+[10:56:02] ConvaiChatbotComponentLog : Log : InvokeTrigger_Internal: Environment object seems to have issues -> setting GenerateActions to false
+[10:56:02] ConvaiGRPCLog : Log : AsyncGetResponse started | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 5295221f01acfc561baf2ff997749d28
+[10:56:02] ConvaiGRPCLog : Log : GRPC GetResponse stream initialized | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 5295221f01acfc561baf2ff997749d28
+[10:56:02] ConvaiGRPCLog : Log : request: character_id: "77d7acd8-8059-11f0-845c-42010a7be01f"
+api_key: "dde3d1f3ad9758cfebb97c04227e3edf"
+session_id: "5295221f01acfc561baf2ff997749d28"
+audio_config {
+  sample_rate_hertz: 16000
+}
+dynamic_info_config {
+}
+ | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 5295221f01acfc561baf2ff997749d28
+[10:56:02] ConvaiGRPCLog : Log : Initial Stream Write | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 5295221f01acfc561baf2ff997749d28
+[10:56:02] ConvaiGRPCLog : Log : Initial Stream Read | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 5295221f01acfc561baf2ff997749d28
+[10:56:02] ConvaiGRPCLog : Log : Sent Trigger Message Can't find a path to Activator.: | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 5295221f01acfc561baf2ff997749d28
+[10:56:02] ConvaiGRPCLog : Log : Calling Stream WriteLast | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 5295221f01acfc561baf2ff997749d28
+[10:56:02] ConvaiGRPCLog : Log : OnStreamWriteDone
+[10:56:02] ConvaiGRPCLog : Log : NumberOfAudioBytesSent 0
+[10:56:02] ConvaiGRPCLog : Log : Destroying UConvaiGRPCGetResponseProxy... | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 5295221f01acfc561baf2ff997749d28
+[10:56:04] ConvaiSubsystemLog : Verbose : Unregistered player component: ConvaiPlayer
+[10:56:04] ConvaiSubsystemLog : Log : UConvaiSubsystem Stopped
+[10:56:04] ConvaiSubsystemLog : Log : Could not run gRPC delegate due to thread closing down
+[10:56:04] ConvaiSubsystemLog : Log : End Run
+[10:56:04] ConvaiGRPCLog : Log : Destroying UConvaiGRPCGetResponseProxy... | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 5295221f01acfc561baf2ff997749d28
+[10:56:04] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 5295221f01acfc561baf2ff997749d28
+[10:58:00] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:58:01] ConvaiSubsystemLog : Log : gRPC Creating Channel...
+[10:58:01] ConvaiSubsystemLog : Log : UConvaiSubsystem Started
+[10:58:01] ConvaiSubsystemLog : Log : Start Run
+[10:58:01] ConvaiPlayerLog : Log : UConvaiPlayerComponent: Found submix "AudioInput"
+[10:58:01] ConvaiSubsystemLog : Verbose : Registered player component: ConvaiPlayer
+[10:58:10] ConvaiSubsystemLog : Warning : gRPC channel not ready yet.. Current State: GRPC_CHANNEL_IDLE
+[10:58:10] ConvaiGRPCLog : Log : AsyncGetResponse started | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:58:10] ConvaiGRPCLog : Log : GRPC GetResponse stream initialized | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:58:10] ConvaiGRPCLog : Log : request: character_id: "77d7acd8-8059-11f0-845c-42010a7be01f"
+api_key: "dde3d1f3ad9758cfebb97c04227e3edf"
+session_id: "-1"
+audio_config {
+  sample_rate_hertz: 16000
+}
+action_config {
+  actions: "Moves To"
+  actions: "Follows"
+  actions: "None"
+  actions: "Stops"
+  actions: "Waits for <time in seconds or character>"
+  characters {
+    name: "BUddy"
+  }
+  characters {
+    name: "Guest"
+  }
+  characters {
+    name: "Player"
+  }
+  objects {
+    name: "Red Platform"
+  }
+  objects {
+    name: "Position number 4"
+  }
+  objects {
+    name: "Activator"
+  }
+  classification: "multistep"
+}
+speaker: "Player"
+dynamic_info_config {
+}
+ | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:58:10] ConvaiGRPCLog : Log : Initial Stream Write | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:58:10] ConvaiGRPCLog : Log : Initial Stream Read | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:58:10] ConvaiGRPCLog : Log : Sent UserQuery move to activator: | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:58:10] ConvaiGRPCLog : Log : Calling Stream WriteLast | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:58:10] ConvaiGRPCLog : Log : OnStreamWriteDone
+[10:58:10] ConvaiGRPCLog : Log : NumberOfAudioBytesSent 0
+[10:58:12] ConvaiGRPCLog : Log : GetResponse EmotionResponseDebug: session_id: "53cdaee5c580b32d8df011bdcfc80030"
+emotion_response: "Serenity"
+
+[10:58:13] ConvaiGRPCLog : Log : Received Audio Chunk: 2.018390 secs | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 53cdaee5c580b32d8df011bdcfc80030
+[10:58:13] ConvaiGRPCLog : Log : EmotionResponse: joy 1
+[10:58:13] ConvaiAudioStreamerLog : Log : New SampleRate: 44100
+[10:58:13] ConvaiAudioStreamerLog : Log : New Channels: 1
+[10:58:13] ConvaiAudioStreamerLog : Log : State transition: Stopped -> Playing
+[10:58:13] ConvaiChatbotComponentLog : Log : Chatbot Total Received Audio: 2.017370 seconds
+[10:58:13] ConvaiGRPCLog : Log : Received Text Moving to the Activator now!: | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 53cdaee5c580b32d8df011bdcfc80030 | ReceivedFinalResponse : True
+[10:58:13] ConvaiGRPCLog : Log : GetResponse SequenceString: Moves To Activator
+[10:58:13] ConvaiGRPCLog : Log : Action: Moves To
+[10:58:13] ConvaiGRPCLog : Log : GetResponse EmotionResponseDebug: session_id: "53cdaee5c580b32d8df011bdcfc80030"
+emotion_response: "Admiration Ecstasy"
+
+[10:58:14] ConvaiGRPCLog : Log : No more data to read after 3 attempts. Calling Finish...
+[10:58:14] ConvaiGRPCLog : Log : Calling Stream Finish | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 53cdaee5c580b32d8df011bdcfc80030
+[10:58:14] ConvaiGRPCLog : Log : On Stream Finish | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 53cdaee5c580b32d8df011bdcfc80030
+[10:58:14] ConvaiChatbotComponentLog : Log : UConvaiChatbotComponent Request Finished! | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 53cdaee5c580b32d8df011bdcfc80030
+[10:58:15] ConvaiAudioStreamerLog : Log : onAudioFinished
+[10:58:15] ConvaiAudioStreamerLog : Log : State transition: Playing -> Stopped
+[10:58:16] ConvaiSubsystemLog : Verbose : Unregistered player component: ConvaiPlayer
+[10:58:16] ConvaiSubsystemLog : Log : UConvaiSubsystem Stopped
+[10:58:16] ConvaiSubsystemLog : Log : End Run
+[10:58:16] ConvaiGRPCLog : Log : Destroying UConvaiGRPCGetResponseProxy... | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 53cdaee5c580b32d8df011bdcfc80030
+[10:58:16] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 53cdaee5c580b32d8df011bdcfc80030
+[10:58:30] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:58:30] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:58:30] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:58:30] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:58:30] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:58:30] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:58:30] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:58:30] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:58:30] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:58:30] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:58:30] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:58:30] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:58:30] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:58:30] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:58:30] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:58:30] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:58:30] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:58:30] ConvaiSubsystemLog : Log : gRPC Creating Channel...
+[10:58:30] ConvaiSubsystemLog : Log : UConvaiSubsystem Started
+[10:58:30] ConvaiSubsystemLog : Log : Start Run
+[10:58:30] ConvaiPlayerLog : Log : UConvaiPlayerComponent: Found submix "AudioInput"
+[10:58:30] ConvaiSubsystemLog : Verbose : Registered player component: ConvaiPlayer
+[10:58:38] ConvaiSubsystemLog : Warning : gRPC channel not ready yet.. Current State: GRPC_CHANNEL_IDLE
+[10:58:38] ConvaiGRPCLog : Log : AsyncGetResponse started | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:58:38] ConvaiGRPCLog : Log : GRPC GetResponse stream initialized | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:58:38] ConvaiGRPCLog : Log : request: character_id: "77d7acd8-8059-11f0-845c-42010a7be01f"
+api_key: "dde3d1f3ad9758cfebb97c04227e3edf"
+session_id: "-1"
+audio_config {
+  sample_rate_hertz: 16000
+}
+action_config {
+  actions: "Moves To"
+  actions: "Follows"
+  actions: "None"
+  actions: "Stops"
+  actions: "Waits for <time in seconds or character>"
+  characters {
+    name: "BUddy"
+  }
+  characters {
+    name: "Guest"
+  }
+  characters {
+    name: "Player"
+  }
+  objects {
+    name: "Red Platform"
+  }
+  objects {
+    name: "Position number 4"
+  }
+  objects {
+    name: "Activator"
+  }
+  classification: "multistep"
+}
+speaker: "Player"
+dynamic_info_config {
+}
+ | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:58:38] ConvaiGRPCLog : Log : Initial Stream Write | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:58:38] ConvaiGRPCLog : Log : Initial Stream Read | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:58:38] ConvaiGRPCLog : Log : Sent UserQuery move to activator: | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:58:38] ConvaiGRPCLog : Log : Calling Stream WriteLast | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:58:38] ConvaiGRPCLog : Log : OnStreamWriteDone
+[10:58:38] ConvaiGRPCLog : Log : NumberOfAudioBytesSent 0
+[10:58:40] ConvaiGRPCLog : Log : GetResponse EmotionResponseDebug: session_id: "4973d83444f5cdb34d519a7083179de0"
+emotion_response: "Serenity"
+
+[10:58:40] ConvaiGRPCLog : Log : Received Audio Chunk: 2.018390 secs | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 4973d83444f5cdb34d519a7083179de0
+[10:58:40] ConvaiGRPCLog : Log : EmotionResponse: joy 1
+[10:58:40] ConvaiAudioStreamerLog : Log : New SampleRate: 44100
+[10:58:40] ConvaiAudioStreamerLog : Log : New Channels: 1
+[10:58:40] ConvaiAudioStreamerLog : Log : State transition: Stopped -> Playing
+[10:58:40] ConvaiChatbotComponentLog : Log : Chatbot Total Received Audio: 2.017370 seconds
+[10:58:40] ConvaiGRPCLog : Log : Received Text Moving to the Activator now!: | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 4973d83444f5cdb34d519a7083179de0 | ReceivedFinalResponse : True
+[10:58:40] ConvaiGRPCLog : Log : GetResponse SequenceString: Moves To Activator
+[10:58:40] ConvaiGRPCLog : Log : Action: Moves To
+[10:58:41] ConvaiGRPCLog : Log : GetResponse EmotionResponseDebug: session_id: "4973d83444f5cdb34d519a7083179de0"
+emotion_response: "Admiration Ecstasy"
+
+[10:58:41] ConvaiGRPCLog : Log : No more data to read after 3 attempts. Calling Finish...
+[10:58:41] ConvaiGRPCLog : Log : Calling Stream Finish | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 4973d83444f5cdb34d519a7083179de0
+[10:58:41] ConvaiGRPCLog : Log : On Stream Finish | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 4973d83444f5cdb34d519a7083179de0
+[10:58:41] ConvaiChatbotComponentLog : Log : UConvaiChatbotComponent Request Finished! | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 4973d83444f5cdb34d519a7083179de0
+[10:58:42] ConvaiAudioStreamerLog : Log : onAudioFinished
+[10:58:42] ConvaiAudioStreamerLog : Log : State transition: Playing -> Stopped
+[10:58:44] ConvaiChatbotComponentLog : Log : Invoke Speech: Executed | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 4973d83444f5cdb34d519a7083179de0
+[10:58:44] ConvaiGRPCLog : Log : AsyncGetResponse started | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 4973d83444f5cdb34d519a7083179de0
+[10:58:44] ConvaiGRPCLog : Log : GRPC GetResponse stream initialized | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 4973d83444f5cdb34d519a7083179de0
+[10:58:44] ConvaiGRPCLog : Log : request: character_id: "77d7acd8-8059-11f0-845c-42010a7be01f"
+api_key: "dde3d1f3ad9758cfebb97c04227e3edf"
+session_id: "4973d83444f5cdb34d519a7083179de0"
+audio_config {
+  sample_rate_hertz: 16000
+}
+dynamic_info_config {
+}
+ | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 4973d83444f5cdb34d519a7083179de0
+[10:58:44] ConvaiGRPCLog : Log : Initial Stream Write | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 4973d83444f5cdb34d519a7083179de0
+[10:58:44] ConvaiGRPCLog : Log : Initial Stream Read | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 4973d83444f5cdb34d519a7083179de0
+[10:58:44] ConvaiGRPCLog : Log : Sent Trigger Message Can't find a path to Activator.: | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 4973d83444f5cdb34d519a7083179de0
+[10:58:44] ConvaiGRPCLog : Log : Calling Stream WriteLast | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 4973d83444f5cdb34d519a7083179de0
+[10:58:44] ConvaiGRPCLog : Log : OnStreamWriteDone
+[10:58:44] ConvaiGRPCLog : Log : NumberOfAudioBytesSent 0
+[10:58:47] ConvaiGRPCLog : Log : GetResponse EmotionResponseDebug: session_id: "4973d83444f5cdb34d519a7083179de0"
+emotion_response: "Sadness"
+
+[10:58:48] ConvaiGRPCLog : Log : Received Audio Chunk: 0.916327 secs | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 4973d83444f5cdb34d519a7083179de0
+[10:58:48] ConvaiGRPCLog : Log : EmotionResponse: sadness 2
+[10:58:48] ConvaiAudioStreamerLog : Log : State transition: Stopped -> Playing
+[10:58:48] ConvaiGRPCLog : Log : Received Text Oh no! : | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 4973d83444f5cdb34d519a7083179de0 | ReceivedFinalResponse : False
+[10:58:48] ConvaiGRPCLog : Log : GetResponse EmotionResponseDebug: session_id: "4973d83444f5cdb34d519a7083179de0"
+emotion_response: "Sadness"
+
+[10:58:48] ConvaiGRPCLog : Log : Received Audio Chunk: 3.765850 secs | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 4973d83444f5cdb34d519a7083179de0
+[10:58:48] ConvaiGRPCLog : Log : EmotionResponse: sadness 2
+[10:58:48] ConvaiGRPCLog : Log : Received Text It seems I can't find a path to the Activator right now. : | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 4973d83444f5cdb34d519a7083179de0 | ReceivedFinalResponse : False
+[10:58:48] ConvaiGRPCLog : Log : GetResponse EmotionResponseDebug: session_id: "4973d83444f5cdb34d519a7083179de0"
+emotion_response: "Sadness"
+
+[10:58:48] ConvaiGRPCLog : Log : Received Audio Chunk: 1.410726 secs | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 4973d83444f5cdb34d519a7083179de0
+[10:58:48] ConvaiGRPCLog : Log : EmotionResponse: sadness 2
+[10:58:48] ConvaiChatbotComponentLog : Log : Chatbot Total Received Audio: 6.089841 seconds
+[10:58:48] ConvaiGRPCLog : Log : Received Text I'm sorry about that.: | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 4973d83444f5cdb34d519a7083179de0 | ReceivedFinalResponse : True
+[10:58:49] ConvaiGRPCLog : Log : GetResponse EmotionResponseDebug: session_id: "4973d83444f5cdb34d519a7083179de0"
+emotion_response: "Acceptance Serenity Distraction Interest"
+
+[10:58:50] ConvaiGRPCLog : Log : No more data to read after 3 attempts. Calling Finish...
+[10:58:50] ConvaiGRPCLog : Log : Calling Stream Finish | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 4973d83444f5cdb34d519a7083179de0
+[10:58:50] ConvaiGRPCLog : Log : On Stream Finish | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 4973d83444f5cdb34d519a7083179de0
+[10:58:50] ConvaiChatbotComponentLog : Log : UConvaiChatbotComponent Request Finished! | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 4973d83444f5cdb34d519a7083179de0
+[10:58:54] ConvaiAudioStreamerLog : Log : onAudioFinished
+[10:58:54] ConvaiAudioStreamerLog : Log : State transition: Playing -> Stopped
+[10:58:56] ConvaiSubsystemLog : Verbose : Unregistered player component: ConvaiPlayer
+[10:58:56] ConvaiSubsystemLog : Log : UConvaiSubsystem Stopped
+[10:58:56] ConvaiSubsystemLog : Log : End Run
+[10:58:56] ConvaiGRPCLog : Log : Destroying UConvaiGRPCGetResponseProxy... | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 4973d83444f5cdb34d519a7083179de0
+[10:58:56] ConvaiGRPCLog : Log : Destroying UConvaiGRPCGetResponseProxy... | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 4973d83444f5cdb34d519a7083179de0
+[10:58:56] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 4973d83444f5cdb34d519a7083179de0
+[10:58:56] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:58:56] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:59:22] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 18ee52f0-800c-11f0-b3c0-42010a7be01f | Session ID : -1
+[10:59:22] ConvaiChatbotComponentLog : Log : Cleanup | Character ID :  | Session ID : -1
+[10:59:27] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 18ee52f0-800c-11f0-b3c0-42010a7be01f | Session ID : -1
+[10:59:27] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:59:27] ConvaiChatbotComponentLog : Log : Cleanup | Character ID :  | Session ID : -1
+[10:59:27] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 18ee52f0-800c-11f0-b3c0-42010a7be01f | Session ID : -1
+[10:59:27] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:59:27] ConvaiChatbotComponentLog : Log : Cleanup | Character ID :  | Session ID : -1
+[10:59:27] ConvaiSubsystemLog : Log : gRPC Creating Channel...
+[10:59:28] ConvaiSubsystemLog : Log : UConvaiSubsystem Started
+[10:59:28] ConvaiSubsystemLog : Log : Start Run
+[10:59:28] ConvaiPlayerLog : Log : UConvaiPlayerComponent: Found submix "AudioInput"
+[10:59:28] ConvaiSubsystemLog : Verbose : Registered player component: ConvaiPlayer
+[10:59:34] ConvaiSubsystemLog : Warning : gRPC channel not ready yet.. Current State: GRPC_CHANNEL_IDLE
+[10:59:34] ConvaiGRPCLog : Log : AsyncGetResponse started | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:59:34] ConvaiGRPCLog : Log : GRPC GetResponse stream initialized | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:59:34] ConvaiGRPCLog : Log : request: character_id: "77d7acd8-8059-11f0-845c-42010a7be01f"
+api_key: "dde3d1f3ad9758cfebb97c04227e3edf"
+session_id: "-1"
+audio_config {
+  sample_rate_hertz: 16000
+}
+action_config {
+  actions: "Moves To"
+  actions: "Follows"
+  actions: "None"
+  actions: "Stops"
+  actions: "Waits for <time in seconds or character>"
+  characters {
+    name: "BUddy"
+  }
+  characters {
+    name: "Guest"
+  }
+  characters {
+    name: "Player"
+  }
+  objects {
+    name: "Red Platform"
+  }
+  objects {
+    name: "Position number 4"
+  }
+  objects {
+    name: "Activator"
+  }
+  classification: "multistep"
+}
+speaker: "Player"
+dynamic_info_config {
+}
+ | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:59:34] ConvaiGRPCLog : Log : Initial Stream Write | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:59:34] ConvaiGRPCLog : Log : Initial Stream Read | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:59:34] ConvaiGRPCLog : Log : Sent UserQuery move to activator: | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:59:34] ConvaiGRPCLog : Log : Calling Stream WriteLast | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:59:34] ConvaiGRPCLog : Log : OnStreamWriteDone
+[10:59:34] ConvaiGRPCLog : Log : NumberOfAudioBytesSent 0
+[10:59:41] ConvaiGRPCLog : Log : GetResponse EmotionResponseDebug: session_id: "809cb9416e533647483184b4f2d55b0d"
+emotion_response: "Serenity"
+
+[10:59:41] ConvaiGRPCLog : Log : Received Audio Chunk: 2.018390 secs | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 809cb9416e533647483184b4f2d55b0d
+[10:59:41] ConvaiGRPCLog : Log : EmotionResponse: joy 1
+[10:59:41] ConvaiAudioStreamerLog : Log : New SampleRate: 44100
+[10:59:41] ConvaiAudioStreamerLog : Log : New Channels: 1
+[10:59:41] ConvaiAudioStreamerLog : Log : State transition: Stopped -> Playing
+[10:59:41] ConvaiChatbotComponentLog : Log : Chatbot Total Received Audio: 2.017370 seconds
+[10:59:41] ConvaiGRPCLog : Log : Received Text Moving to the Activator now!: | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 809cb9416e533647483184b4f2d55b0d | ReceivedFinalResponse : True
+[10:59:41] ConvaiGRPCLog : Log : GetResponse SequenceString: Moves To Activator
+[10:59:41] ConvaiGRPCLog : Log : Action: Moves To
+[10:59:43] ConvaiGRPCLog : Log : GetResponse EmotionResponseDebug: session_id: "809cb9416e533647483184b4f2d55b0d"
+emotion_response: "Admiration Ecstasy Interest"
+
+[10:59:43] ConvaiAudioStreamerLog : Log : onAudioFinished
+[10:59:43] ConvaiAudioStreamerLog : Log : State transition: Playing -> Stopped
+[10:59:45] ConvaiChatbotComponentLog : Log : Invoke Speech: Executed | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 809cb9416e533647483184b4f2d55b0d
+[10:59:45] ConvaiGRPCLog : Log : AsyncGetResponse started | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 809cb9416e533647483184b4f2d55b0d
+[10:59:45] ConvaiGRPCLog : Log : GRPC GetResponse stream initialized | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 809cb9416e533647483184b4f2d55b0d
+[10:59:45] ConvaiGRPCLog : Log : request: character_id: "77d7acd8-8059-11f0-845c-42010a7be01f"
+api_key: "dde3d1f3ad9758cfebb97c04227e3edf"
+session_id: "809cb9416e533647483184b4f2d55b0d"
+audio_config {
+  sample_rate_hertz: 16000
+}
+dynamic_info_config {
+}
+ | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 809cb9416e533647483184b4f2d55b0d
+[10:59:45] ConvaiGRPCLog : Log : Initial Stream Write | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 809cb9416e533647483184b4f2d55b0d
+[10:59:45] ConvaiGRPCLog : Log : Initial Stream Read | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 809cb9416e533647483184b4f2d55b0d
+[10:59:45] ConvaiGRPCLog : Log : Sent Trigger Message Can't find a path to Activator.: | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 809cb9416e533647483184b4f2d55b0d
+[10:59:45] ConvaiGRPCLog : Log : Calling Stream WriteLast | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 809cb9416e533647483184b4f2d55b0d
+[10:59:45] ConvaiGRPCLog : Log : No more data to read after 3 attempts. Calling Finish...
+[10:59:45] ConvaiGRPCLog : Log : Calling Stream Finish | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 809cb9416e533647483184b4f2d55b0d
+[10:59:45] ConvaiGRPCLog : Log : OnStreamWriteDone
+[10:59:45] ConvaiGRPCLog : Log : NumberOfAudioBytesSent 0
+[10:59:45] ConvaiGRPCLog : Log : On Stream Finish | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 809cb9416e533647483184b4f2d55b0d
+[10:59:46] ConvaiGRPCLog : Log : Destroying UConvaiGRPCGetResponseProxy... | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 809cb9416e533647483184b4f2d55b0d
+[10:59:50] ConvaiGRPCLog : Log : GetResponse EmotionResponseDebug: session_id: "809cb9416e533647483184b4f2d55b0d"
+emotion_response: "Sadness"
+
+[10:59:51] ConvaiGRPCLog : Log : Received Audio Chunk: 3.062971 secs | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 809cb9416e533647483184b4f2d55b0d
+[10:59:51] ConvaiGRPCLog : Log : EmotionResponse: sadness 2
+[10:59:51] ConvaiAudioStreamerLog : Log : State transition: Stopped -> Playing
+[10:59:51] ConvaiGRPCLog : Log : Received Text Oh no, I can't find a path to the Activator. : | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 809cb9416e533647483184b4f2d55b0d | ReceivedFinalResponse : False
+[10:59:51] ConvaiGRPCLog : Log : GetResponse EmotionResponseDebug: session_id: "809cb9416e533647483184b4f2d55b0d"
+emotion_response: "Sadness"
+
+[10:59:51] ConvaiGRPCLog : Log : Received Audio Chunk: 1.406009 secs | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 809cb9416e533647483184b4f2d55b0d
+[10:59:51] ConvaiGRPCLog : Log : EmotionResponse: sadness 2
+[10:59:51] ConvaiChatbotComponentLog : Log : Chatbot Total Received Audio: 4.466939 seconds
+[10:59:51] ConvaiGRPCLog : Log : Received Text I'm sorry about that!: | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 809cb9416e533647483184b4f2d55b0d | ReceivedFinalResponse : True
+[10:59:52] ConvaiGRPCLog : Log : GetResponse EmotionResponseDebug: session_id: "809cb9416e533647483184b4f2d55b0d"
+emotion_response: "Trust Serenity"
+
+[10:59:54] ConvaiGRPCLog : Log : No more data to read after 3 attempts. Calling Finish...
+[10:59:54] ConvaiGRPCLog : Log : Calling Stream Finish | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 809cb9416e533647483184b4f2d55b0d
+[10:59:54] ConvaiGRPCLog : Log : On Stream Finish | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 809cb9416e533647483184b4f2d55b0d
+[10:59:54] ConvaiChatbotComponentLog : Log : UConvaiChatbotComponent Request Finished! | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 809cb9416e533647483184b4f2d55b0d
+[10:59:55] ConvaiAudioStreamerLog : Log : onAudioFinished
+[10:59:55] ConvaiAudioStreamerLog : Log : State transition: Playing -> Stopped
+[10:59:56] ConvaiSubsystemLog : Verbose : Unregistered player component: ConvaiPlayer
+[10:59:56] ConvaiSubsystemLog : Log : UConvaiSubsystem Stopped
+[10:59:56] ConvaiSubsystemLog : Log : End Run
+[10:59:56] ConvaiGRPCLog : Log : Destroying UConvaiGRPCGetResponseProxy... | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 809cb9416e533647483184b4f2d55b0d
+[10:59:56] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 809cb9416e533647483184b4f2d55b0d
+[10:59:56] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[11:00:34] ConvaiSubsystemLog : Log : gRPC Creating Channel...
+[11:00:34] ConvaiSubsystemLog : Log : UConvaiSubsystem Started
+[11:00:34] ConvaiSubsystemLog : Log : Start Run
+[11:00:34] ConvaiPlayerLog : Log : UConvaiPlayerComponent: Found submix "AudioInput"
+[11:00:34] ConvaiSubsystemLog : Verbose : Registered player component: ConvaiPlayer
+[11:00:40] ConvaiSubsystemLog : Warning : gRPC channel not ready yet.. Current State: GRPC_CHANNEL_IDLE
+[11:00:40] ConvaiGRPCLog : Log : AsyncGetResponse started | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[11:00:40] ConvaiGRPCLog : Log : GRPC GetResponse stream initialized | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[11:00:40] ConvaiGRPCLog : Log : request: character_id: "77d7acd8-8059-11f0-845c-42010a7be01f"
+api_key: "dde3d1f3ad9758cfebb97c04227e3edf"
+session_id: "-1"
+audio_config {
+  sample_rate_hertz: 16000
+}
+action_config {
+  actions: "Moves To"
+  actions: "Follows"
+  actions: "None"
+  actions: "Stops"
+  actions: "Waits for <time in seconds or character>"
+  characters {
+    name: "BUddy"
+  }
+  characters {
+    name: "Guest"
+  }
+  characters {
+    name: "Player"
+  }
+  objects {
+    name: "Red Platform"
+  }
+  objects {
+    name: "Position number 4"
+  }
+  objects {
+    name: "Activator"
+  }
+  classification: "multistep"
+}
+speaker: "Player"
+dynamic_info_config {
+}
+ | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[11:00:40] ConvaiGRPCLog : Log : Initial Stream Write | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[11:00:40] ConvaiGRPCLog : Log : Initial Stream Read | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[11:00:40] ConvaiGRPCLog : Log : Sent UserQuery move to activator: | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[11:00:40] ConvaiGRPCLog : Log : Calling Stream WriteLast | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[11:00:40] ConvaiGRPCLog : Log : OnStreamWriteDone
+[11:00:40] ConvaiGRPCLog : Log : NumberOfAudioBytesSent 0
+[11:00:46] ConvaiGRPCLog : Log : GetResponse EmotionResponseDebug: session_id: "3e41a66b73b4230c7a88d9442003ebd5"
+emotion_response: "Serenity"
+
+[11:00:47] ConvaiGRPCLog : Log : Received Audio Chunk: 1.663265 secs | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 3e41a66b73b4230c7a88d9442003ebd5
+[11:00:47] ConvaiGRPCLog : Log : EmotionResponse: joy 1
+[11:00:47] ConvaiAudioStreamerLog : Log : New SampleRate: 44100
+[11:00:47] ConvaiAudioStreamerLog : Log : New Channels: 1
+[11:00:47] ConvaiAudioStreamerLog : Log : State transition: Stopped -> Playing
+[11:00:47] ConvaiChatbotComponentLog : Log : Chatbot Total Received Audio: 1.662245 seconds
+[11:00:47] ConvaiGRPCLog : Log : Received Text Moving to the Activator!: | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 3e41a66b73b4230c7a88d9442003ebd5 | ReceivedFinalResponse : True
+[11:00:47] ConvaiGRPCLog : Log : GetResponse SequenceString: Moves To Activator
+[11:00:47] ConvaiGRPCLog : Log : Action: Moves To
+[11:00:48] ConvaiGRPCLog : Log : GetResponse EmotionResponseDebug: session_id: "3e41a66b73b4230c7a88d9442003ebd5"
+emotion_response: "Ecstasy Trust"
+
+[11:00:48] ConvaiAudioStreamerLog : Log : onAudioFinished
+[11:00:48] ConvaiAudioStreamerLog : Log : State transition: Playing -> Stopped
+[11:00:51] ConvaiGRPCLog : Log : No more data to read after 3 attempts. Calling Finish...
+[11:00:51] ConvaiGRPCLog : Log : Calling Stream Finish | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 3e41a66b73b4230c7a88d9442003ebd5
+[11:00:51] ConvaiGRPCLog : Log : On Stream Finish | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 3e41a66b73b4230c7a88d9442003ebd5
+[11:00:51] ConvaiChatbotComponentLog : Log : UConvaiChatbotComponent Request Finished! | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 3e41a66b73b4230c7a88d9442003ebd5
+[11:00:59] ConvaiChatbotComponentLog : Log : Invoke Speech: Executed | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 3e41a66b73b4230c7a88d9442003ebd5
+[11:00:59] ConvaiChatbotComponentLog : Warning : InvokeTrigger_Internal: ConvaiActions: Main Character in the Environment object is invalid or not set! Please set it using "Set Main Character" function and use the player pawn as input
+[11:00:59] ConvaiChatbotComponentLog : Log : InvokeTrigger_Internal: Environment object seems to have issues -> setting GenerateActions to false
+[11:00:59] ConvaiGRPCLog : Log : AsyncGetResponse started | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 3e41a66b73b4230c7a88d9442003ebd5
+[11:00:59] ConvaiGRPCLog : Log : GRPC GetResponse stream initialized | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 3e41a66b73b4230c7a88d9442003ebd5
+[11:00:59] ConvaiGRPCLog : Log : request: character_id: "77d7acd8-8059-11f0-845c-42010a7be01f"
+api_key: "dde3d1f3ad9758cfebb97c04227e3edf"
+session_id: "3e41a66b73b4230c7a88d9442003ebd5"
+audio_config {
+  sample_rate_hertz: 16000
+}
+dynamic_info_config {
+}
+ | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 3e41a66b73b4230c7a88d9442003ebd5
+[11:00:59] ConvaiGRPCLog : Log : Initial Stream Write | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 3e41a66b73b4230c7a88d9442003ebd5
+[11:00:59] ConvaiGRPCLog : Log : Initial Stream Read | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 3e41a66b73b4230c7a88d9442003ebd5
+[11:00:59] ConvaiGRPCLog : Log : Sent Trigger Message Can't find a path to Activator.: | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 3e41a66b73b4230c7a88d9442003ebd5
+[11:00:59] ConvaiGRPCLog : Log : Calling Stream WriteLast | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 3e41a66b73b4230c7a88d9442003ebd5
+[11:00:59] ConvaiGRPCLog : Log : OnStreamWriteDone
+[11:00:59] ConvaiGRPCLog : Log : NumberOfAudioBytesSent 0
+[11:01:10] ConvaiSubsystemLog : Verbose : Unregistered player component: ConvaiPlayer
+[11:01:10] ConvaiSubsystemLog : Log : UConvaiSubsystem Stopped
+[11:01:10] ConvaiSubsystemLog : Log : Could not run gRPC delegate due to thread closing down
+[11:01:10] ConvaiSubsystemLog : Log : End Run
+[11:01:10] ConvaiGRPCLog : Log : Destroying UConvaiGRPCGetResponseProxy... | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 3e41a66b73b4230c7a88d9442003ebd5
+[11:01:10] ConvaiGRPCLog : Log : Destroying UConvaiGRPCGetResponseProxy... | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 3e41a66b73b4230c7a88d9442003ebd5
+[11:01:10] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 3e41a66b73b4230c7a88d9442003ebd5
+[11:01:41] ConvaiSubsystemLog : Log : gRPC Creating Channel...
+[11:01:41] ConvaiSubsystemLog : Log : UConvaiSubsystem Started
+[11:01:41] ConvaiSubsystemLog : Log : Start Run
+[11:01:41] ConvaiPlayerLog : Log : UConvaiPlayerComponent: Found submix "AudioInput"
+[11:01:41] ConvaiSubsystemLog : Verbose : Registered player component: ConvaiPlayer
+[11:01:50] ConvaiSubsystemLog : Warning : gRPC channel not ready yet.. Current State: GRPC_CHANNEL_IDLE
+[11:01:50] ConvaiGRPCLog : Log : AsyncGetResponse started | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[11:01:50] ConvaiGRPCLog : Log : GRPC GetResponse stream initialized | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[11:01:50] ConvaiGRPCLog : Log : request: character_id: "77d7acd8-8059-11f0-845c-42010a7be01f"
+api_key: "dde3d1f3ad9758cfebb97c04227e3edf"
+session_id: "-1"
+audio_config {
+  sample_rate_hertz: 16000
+}
+action_config {
+  actions: "Moves To"
+  actions: "Follows"
+  actions: "None"
+  actions: "Stops"
+  actions: "Waits for <time in seconds or character>"
+  characters {
+    name: "BUddy"
+  }
+  characters {
+    name: "Guest"
+  }
+  characters {
+    name: "Player"
+  }
+  objects {
+    name: "Red Platform"
+  }
+  objects {
+    name: "Position number 4"
+  }
+  objects {
+    name: "Activator"
+  }
+  classification: "multistep"
+}
+speaker: "Player"
+dynamic_info_config {
+}
+ | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[11:01:50] ConvaiGRPCLog : Log : Initial Stream Write | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[11:01:50] ConvaiGRPCLog : Log : Initial Stream Read | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[11:01:50] ConvaiGRPCLog : Log : Sent UserQuery move to activator: | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[11:01:50] ConvaiGRPCLog : Log : Calling Stream WriteLast | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[11:01:50] ConvaiGRPCLog : Log : OnStreamWriteDone
+[11:01:50] ConvaiGRPCLog : Log : NumberOfAudioBytesSent 0
+[11:01:58] ConvaiGRPCLog : Log : GetResponse EmotionResponseDebug: session_id: "26a2b74008940e281fa7f42439cef38a"
+emotion_response: "Serenity"
+
+[11:01:58] ConvaiGRPCLog : Log : Received Audio Chunk: 1.663265 secs | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 26a2b74008940e281fa7f42439cef38a
+[11:01:58] ConvaiGRPCLog : Log : EmotionResponse: joy 1
+[11:01:58] ConvaiAudioStreamerLog : Log : New SampleRate: 44100
+[11:01:58] ConvaiAudioStreamerLog : Log : New Channels: 1
+[11:01:58] ConvaiAudioStreamerLog : Log : State transition: Stopped -> Playing
+[11:01:58] ConvaiChatbotComponentLog : Log : Chatbot Total Received Audio: 1.662245 seconds
+[11:01:58] ConvaiGRPCLog : Log : Received Text Moving to the Activator!: | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 26a2b74008940e281fa7f42439cef38a | ReceivedFinalResponse : True
+[11:01:58] ConvaiGRPCLog : Log : GetResponse SequenceString: Moves To Activator
+[11:01:58] ConvaiGRPCLog : Log : Action: Moves To
+[11:02:00] ConvaiAudioStreamerLog : Log : onAudioFinished
+[11:02:00] ConvaiAudioStreamerLog : Log : State transition: Playing -> Stopped
+[11:02:01] ConvaiGRPCLog : Log : GetResponse EmotionResponseDebug: session_id: "26a2b74008940e281fa7f42439cef38a"
+emotion_response: "Admiration Ecstasy"
+
+[11:02:02] ConvaiChatbotComponentLog : Log : Invoke Speech: Executed | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 26a2b74008940e281fa7f42439cef38a
+[11:02:02] ConvaiGRPCLog : Log : AsyncGetResponse started | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 26a2b74008940e281fa7f42439cef38a
+[11:02:02] ConvaiGRPCLog : Log : GRPC GetResponse stream initialized | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 26a2b74008940e281fa7f42439cef38a
+[11:02:02] ConvaiGRPCLog : Log : request: character_id: "77d7acd8-8059-11f0-845c-42010a7be01f"
+api_key: "dde3d1f3ad9758cfebb97c04227e3edf"
+session_id: "26a2b74008940e281fa7f42439cef38a"
+audio_config {
+  sample_rate_hertz: 16000
+}
+dynamic_info_config {
+}
+ | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 26a2b74008940e281fa7f42439cef38a
+[11:02:02] ConvaiGRPCLog : Log : Initial Stream Write | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 26a2b74008940e281fa7f42439cef38a
+[11:02:02] ConvaiGRPCLog : Log : Initial Stream Read | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 26a2b74008940e281fa7f42439cef38a
+[11:02:02] ConvaiGRPCLog : Log : Sent Trigger Message Can't find a path to Activator.: | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 26a2b74008940e281fa7f42439cef38a
+[11:02:02] ConvaiGRPCLog : Log : Calling Stream WriteLast | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 26a2b74008940e281fa7f42439cef38a
+[11:02:02] ConvaiGRPCLog : Log : OnStreamWriteDone
+[11:02:02] ConvaiGRPCLog : Log : NumberOfAudioBytesSent 0
+[11:02:03] ConvaiGRPCLog : Log : No more data to read after 3 attempts. Calling Finish...
+[11:02:03] ConvaiGRPCLog : Log : Calling Stream Finish | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 26a2b74008940e281fa7f42439cef38a
+[11:02:03] ConvaiGRPCLog : Log : On Stream Finish | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 26a2b74008940e281fa7f42439cef38a
+[11:02:04] ConvaiGRPCLog : Log : GetResponse EmotionResponseDebug: session_id: "26a2b74008940e281fa7f42439cef38a"
+emotion_response: "Sadness"
+
+[11:02:05] ConvaiGRPCLog : Log : Received Audio Chunk: 0.916327 secs | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 26a2b74008940e281fa7f42439cef38a
+[11:02:05] ConvaiGRPCLog : Log : EmotionResponse: sadness 2
+[11:02:05] ConvaiAudioStreamerLog : Log : State transition: Stopped -> Playing
+[11:02:05] ConvaiGRPCLog : Log : Received Text Oh no! : | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 26a2b74008940e281fa7f42439cef38a | ReceivedFinalResponse : False
+[11:02:05] ConvaiGRPCLog : Log : GetResponse EmotionResponseDebug: session_id: "26a2b74008940e281fa7f42439cef38a"
+emotion_response: "Sadness"
+
+[11:02:05] ConvaiGRPCLog : Log : Received Audio Chunk: 3.765850 secs | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 26a2b74008940e281fa7f42439cef38a
+[11:02:05] ConvaiGRPCLog : Log : EmotionResponse: sadness 2
+[11:02:05] ConvaiGRPCLog : Log : Received Text It seems I can't find a path to the Activator right now. : | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 26a2b74008940e281fa7f42439cef38a | ReceivedFinalResponse : False
+[11:02:05] ConvaiGRPCLog : Log : GetResponse EmotionResponseDebug: session_id: "26a2b74008940e281fa7f42439cef38a"
+emotion_response: "Sadness"
+
+[11:02:05] ConvaiGRPCLog : Log : Received Audio Chunk: 1.237188 secs | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 26a2b74008940e281fa7f42439cef38a
+[11:02:05] ConvaiGRPCLog : Log : EmotionResponse: sadness 2
+[11:02:05] ConvaiChatbotComponentLog : Log : Chatbot Total Received Audio: 5.916304 seconds
+[11:02:05] ConvaiGRPCLog : Log : Received Text I'll keep trying!: | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 26a2b74008940e281fa7f42439cef38a | ReceivedFinalResponse : True
+[11:02:06] ConvaiGRPCLog : Log : GetResponse EmotionResponseDebug: session_id: "26a2b74008940e281fa7f42439cef38a"
+emotion_response: "Joy Trust Interest Distraction"
+
+[11:02:07] ConvaiSubsystemLog : Verbose : Unregistered player component: ConvaiPlayer
+[11:02:07] ConvaiSubsystemLog : Log : UConvaiSubsystem Stopped
+[11:02:07] ConvaiGRPCLog : Log : Destroying UConvaiGRPCGetResponseProxy... | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 26a2b74008940e281fa7f42439cef38a
+[11:02:07] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : 26a2b74008940e281fa7f42439cef38a
