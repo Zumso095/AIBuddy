@@ -1,0 +1,33 @@
+[10:45:03] ConvaiPlayerLog : Log : UConvaiPlayerComponent: Found submix "AudioInput"
+[10:45:03] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:48:14] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:48:14] ConvaiChatbotComponentLog : Log : Cleanup | Character ID :  | Session ID : -1
+[10:48:39] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 18ee52f0-800c-11f0-b3c0-42010a7be01f | Session ID : -1
+[10:48:39] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:48:39] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:48:39] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 18ee52f0-800c-11f0-b3c0-42010a7be01f | Session ID : -1
+[10:48:41] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 18ee52f0-800c-11f0-b3c0-42010a7be01f | Session ID : -1
+[10:48:41] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:48:41] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 18ee52f0-800c-11f0-b3c0-42010a7be01f | Session ID : -1
+[10:48:41] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:49:18] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 18ee52f0-800c-11f0-b3c0-42010a7be01f | Session ID : -1
+[10:49:18] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:49:18] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 18ee52f0-800c-11f0-b3c0-42010a7be01f | Session ID : -1
+[10:49:18] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:49:18] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 18ee52f0-800c-11f0-b3c0-42010a7be01f | Session ID : -1
+[10:49:18] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:49:29] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 18ee52f0-800c-11f0-b3c0-42010a7be01f | Session ID : -1
+[10:49:29] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:49:29] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 18ee52f0-800c-11f0-b3c0-42010a7be01f | Session ID : -1
+[10:49:29] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:49:37] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 18ee52f0-800c-11f0-b3c0-42010a7be01f | Session ID : -1
+[10:49:37] ConvaiChatbotComponentLog : Log : Cleanup | Character ID :  | Session ID : -1
+[10:49:38] ConvaiGRPCLog : Log : Destroying UConvaiGRPCGetResponseProxy... | Character ID :  | Session ID : 
+[10:49:38] ConvaiGRPCFeedBackLog : Log : On Stream Finish | Interaction ID :  | Feedback Text :  | ThumbsUp: False
+[10:49:38] ConvaiChatbotComponentLog : Log : Cleanup | Character ID :  | Session ID : -1
+[10:49:38] ConvaiChatbotComponentLog : Log : Cleanup | Character ID :  | Session ID : -1
+[10:49:38] ConvaiChatbotComponentLog : Log : Cleanup | Character ID :  | Session ID : -1
+[10:49:38] ConvaiChatbotComponentLog : Log : Cleanup | Character ID :  | Session ID : -1
+[10:49:38] ConvaiChatbotComponentLog : Log : Cleanup | Character ID : 77d7acd8-8059-11f0-845c-42010a7be01f | Session ID : -1
+[10:49:38] ConvaiChatbotComponentLog : Log : Cleanup | Character ID :  | Session ID : -1
+[10:49:38] ConvaiChatbotComponentLog : Log : Cleanup | Character ID :  | Session ID : -1
